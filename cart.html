@@ -8,6 +8,14 @@
             #navbar {
                 border-bottom: gray 1px solid;
             }
+            input {
+                background: #dadada;
+                color: #555555;
+                font-size:large;
+                border: 1px solid rgb(222, 226, 230);
+                padding-left: 10px;
+                width: 200px;
+            }
         </style>
     </head>
     <body>
@@ -26,12 +34,53 @@
                 </div>
                 <div class="d-flex mx-xs-auto">
                     <a href="wallet.html" class="navbar-link"><img src="images_GA/wallet.png" width="60px" height="60px"></a>
-                    <a href="cart.html" class="navbar-link ms-5 "><img src="images_GA/cart.png" width="60px" height="60px"></a>
-                    <a href="profile.html" class="navbar-link ms-5"><img src="images_GA/profile_selected.png" width="60px" height="60px"></a>
+                    <a href="cart.html" class="navbar-link ms-5 "><img src="images_GA/cart_selected.png" width="60px" height="60px"></a>
+                    <a href="profile.html" class="navbar-link ms-5"><img src="images_GA/profile.png" width="60px" height="60px"></a>
                 </div>
             </div>
         </nav>
-    
+        <div style="margin-top: 135px">
+            <div class="row">
+                <div class="d-flex justify-content-center">
+                    <h1><span style="color:#ffa306">Your Cart</span></h1>
+                </div>
+            </div>
+            <div class="d-flex flex-row">
+                <div class="container rounded-5" style="background: white; min-width: 500px; border: 1px solid black">
+                    <div class="row container-fluid mt-3">
+                        <div class="col-1 clearfix py-2">
+                            <div class="float-start">
+                                <img src="images_GA/hair_straightener_full.png" style="width:auto; height: 150px">
+                            </div>
+                        </div>
+                        <div class="col-10 d-flex flex-column ms-2">
+                            <div class="clearfix">
+                                <div class="float-start">
+                                    <div class="d-flex flex-row">
+                                        <h1>Hair Straightener</h1>
+                                        <input class="ms-5 text-center" type="number" style="padding: 2px; width: auto; max-width: 50px" required>
+                                    </div>
+                                </div>
+                                <div class="float-end">
+                                    <h1>$8</h1>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <h4><span style="color:#ffa306">HairDaily Pte Ltd</span></h4>
+                            </div>
+                                <div class="row">
+                                    <div class="d-flex justify-content-end">
+                                        <a href="cart.html" class="btn rounded-5 p-2 mt-3" style="background:#ffa306; color:white;"><b>Bai Now</b></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
