@@ -17,20 +17,90 @@
                     <div class="navbar-brand">
                         <a class="navbar-brand" href="index.html"><img src="/images_GA/AiBai_logo.png" width="140px"></a>
                     </div>
-                    <form class="d-flex float-sm-end ms-5">
+                    <form class="d-flex flex-row float-sm-end ms-5">
                         <div class="d-flex ms-5">
                             <input id="search" class="form-control me-2 pe-5 rounded-5" type="text" placeholder="Search" style="background: #dadada; color: #555555">
                         </div>
                         <button class="btn" type="button" style="background: #ffa306; color:aliceblue;">Search</button>
                     </form>
                 </div>
-                <div class="d-flex mx-xs-auto">
-                    <a href="wallet.html" class="navbar-link"><img src="images_GA/wallet.png" width="60px" height="60px"></a>
+                <div class="d-flex flex-row mx-xs-auto">
+                    <a href="wallet.html" class="navbar-link"><img src="images_GA/wallet_selected.png" width="60px" height="60px"></a>
                     <a href="cart.html" class="navbar-link ms-5 "><img src="images_GA/cart.png" width="60px" height="60px"></a>
-                    <a href="profile.html" class="navbar-link ms-5"><img src="images_GA/profile_selected.png" width="60px" height="60px"></a>
+                    <a href="profile.html" class="navbar-link ms-5"><img src="images_GA/profile.png" width="60px" height="60px"></a>
                 </div>
             </div>
         </nav>
+        <div class="flex-sm-column">
+            <div class="row ms-5" style="margin-top: 135px">
+                <div class="col-4">
+                    <div class="d-flex flex-column">
+                        <div class="container-fluid rounded-5 px-5 pb-5 pt-3" style="border: 1px solid black; width: 500px auto; min-width: 350px;">
+                            <div class="row">
+                                <div class="d-flex justify-content-center">
+                                    <img src="images_GA/AiBai_logo.png" class="me-5 w-auto" style="max-height: 65px;">
+                                    <img src="images_GA/wallet.png" class="w-auto" style="max-height: 65px;">
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="d-flex justify-content-center">
+                                    <h2 class="me-auto"><span style="color:#ffa306"><b>Total Balance:</b></span></h2>
+                                    <h2>$0</h2>
+                                </div>
+                            <div class="row mt-3" style="min-width: 48px;">
+                                <div class="d-flex justify-content-center">
+                                    <div class="d-flex align-items-center">
+                                        <div class="col-5">
+                                            <a class="btn rounded-5" type="button" style="background:#ffa306; color:white; padding-left: 40px; padding-right: 40px;"><b>View Vouchers</b></a>
+                                        </div>
+                                        <div class="col-5 ms-auto">
+                                            <a class="btn rounded-5" type="button" style="background:#ffa306; color:white; padding-left: 40px; padding-right: 40px; margin-left: 20px;"><b>Top Up</b></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid mt-3 rounded-5" style="border: 1px solid black; width: 500px auto; min-width: 350px;">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex justify-content-center">
+                                    <h2><span style="color: #ffa306;">Earn Discount Vouchers:</span></h2>
+                                </div>
+                                <div class="text-center">
+                                    <div class="container-fluid rounded-5" style="background:#ffa306; color:white;">
+                                        <h3>Top-up $10 to earn a 2% discount voucher.</h3>
+                                    </div>
+                                    <div class="container-fluid rounded-5" style="background: #dadada; color:white;">
+                                        <h3>Top-up $20 to earn a 5% discount voucher.</h3>
+                                    </div>
+                                    <div class="container-fluid rounded-5" style="background: #dadada; color:white;">
+                                        <h3>Top-up $40 to earn a 10% discount voucher.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-7 mx-5">
+                    <div class="d-flex flex-column">
+                        <div class="container-fluid rounded-5" style="border: 1px solid black; width: 900px auto; max-width: 900px; min-width: 500px; height: 560px">
+                            <div class="row">
+                                <div class="clearfix">
+                                    <div class="align-content-start">
+                                        <h2><span class="float-start my-3 ms-3" style="color:#ffa306">Activity</span></h2>
+                                        <select class="float-end me-3 my-3 px-2 rounded-5">
+                                            <option style="font-size: 1.2vw;">Yesterday</option>
+                                            <option style="font-size: 1.2vw;">Last week</option>
+                                            <option style="font-size: 1.2vw;" selected>Last Month</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
