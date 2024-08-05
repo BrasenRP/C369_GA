@@ -1,0 +1,7 @@
+index -> register -> register_OTP -> registration_status -> index -> login_OTP -> profile_set -> profile -> profile_edit
+-> homepage -> wallet -> topup -> topup_type -> topup_details_visa -> topup_status -> wallet_topup -> product_detail -> cart
+-> payment_type -> payment_details_AiBai -> payment_status
+
+Full name = Jonathan Tan
+
+Email = JonTan1234
